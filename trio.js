@@ -316,6 +316,11 @@ $("#puppy").click(function () {
       "<"
     );
     trio.to(
+        "#puppy .trio_img_wrap",
+        { height: "32.8rem", y: "-1.4rem", duration: 0.5, ease: "power1.in" },
+        "<"
+      );
+    trio.to(
       "#arvin .trio_img_wrap",
       { height: "25rem", y: "-1.4rem", duration: 0.5, ease: "power1.in" },
       "<"
